@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# .env ファイル（環境変数・APIキーなど）
+.env*
+!.env.example
+
+# Mac特有のゴミファイル（Macを使う場合）
+.AppleDouble
+.LSOverride
+
+# Windows特有の不要ファイル
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux特有
+*~
+
+# npmキャッシュディレクトリ
+.npm/
+
+# JetBrains系IDE（WebStormなど）
+.idea/
+
+# Viteのキャッシュ
+.vite/
+
+# テスト出力物（Jest等を使う場合）
+coverage/
+
+# VSCodeのユーザー設定（一般的には無視）
+.vscode/*
+!.vscode/extensions.json
